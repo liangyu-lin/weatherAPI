@@ -1,2 +1,4 @@
 # weatherAPI
-This is a example of working with  weather APIs from open weather
+This is an example of working with  weather APIs from opensource weather
+
+install npm express and body-parser

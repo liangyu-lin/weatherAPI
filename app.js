@@ -19,7 +19,7 @@ res.sendFile(__dirname + "/index.html")
 app.post("/", (req, res)=>{
 
 const city = req.body.cityName;
-const APIKey = "f3d5ee9096b9bb55af03d47a4d7efb90"
+const APIKey = "************************"
 const unit = "metric"
 
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}&units=${unit}`;
